@@ -662,6 +662,9 @@ namespace River.OneMoreAddIn
 		public async Task RemoveEmptyCmd(IRibbonControl control)
 			=> await factory.Run<RemoveEmptyCommand>();
 
+		[Command("ribMergeParagraphButton_Label", Keys.None, "ribCleanMenu")]
+		public async Task MergeParagraphCmd(IRibbonControl control)
+			=> await factory.Run<MergeParagraphCommand>();
 
 		[Command("ribRemoveFootnoteButton_Label", Keys.Control | Keys.Shift | Keys.F, "ribReferencesMenu")]
 		public async Task RemoveFootnoteCmd(IRibbonControl control)

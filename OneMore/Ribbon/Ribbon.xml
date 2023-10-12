@@ -243,7 +243,13 @@
                 getLabel="GetRibbonLabel"
                 getScreentip="GetRibbonScreentip"
                 onAction="RemoveEmptyCmd"/>
-              <button
+			  <button
+			   id="ribMergeParagraphButton"
+		 	   imageMso="ParagraphMarks"
+			   getLabel="GetRibbonLabel"
+			   getScreentip="GetRibbonScreentip"
+			   onAction="MergeParagraphCmd"/>
+			   <button
                 id="ribRemoveSpacingButton"
                 imageMso="ParagraphSpacingDecrease"
                 getLabel="GetRibbonLabel"

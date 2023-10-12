@@ -1288,6 +1288,15 @@ namespace River.OneMoreAddIn.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Merge Adjacent Paragraphs.
+        /// </summary>
+        internal static string ctxMergeParagraphButton_Label {
+            get {
+                return ResourceManager.GetString("ctxMergeParagraphButton_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No Spell Check.
         /// </summary>
         internal static string ctxNoSpellCheckButton_Label {
@@ -3714,6 +3723,18 @@ namespace River.OneMoreAddIn.Properties {
             get {
                 object obj = ResourceManager.GetObject("Memo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Merge adjacent paragraphs?
+        ///
+        ///Select Yes to merge adjacent paragraphs with not empty lines between them
+        ///Select No to abort this operation.
+        /// </summary>
+        internal static string MergeParagraphCommand_option {
+            get {
+                return ResourceManager.GetString("MergeParagraphCommand_option", resourceCulture);
             }
         }
         
@@ -7535,6 +7556,24 @@ namespace River.OneMoreAddIn.Properties {
         internal static string ribMergeButton_Screentip {
             get {
                 return ResourceManager.GetString("ribMergeButton_Screentip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Merge Adjacent Paragraphs.
+        /// </summary>
+        internal static string ribMergeParagraphButton_Label {
+            get {
+                return ResourceManager.GetString("ribMergeParagraphButton_Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Merges paragraphs which have no empty lines between them.
+        /// </summary>
+        internal static string ribMergeParagraphButton_Screentip {
+            get {
+                return ResourceManager.GetString("ribMergeParagraphButton_Screentip", resourceCulture);
             }
         }
         
